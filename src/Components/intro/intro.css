@@ -1,0 +1,44 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 35px;
+}
+
+.intro img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.intro h1 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.intro h1 span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro p {
+  width: 80%;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 36px;
+  }
+
+  .intro p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
