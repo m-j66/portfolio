@@ -7,7 +7,10 @@ const footer = () => {
         <li>
           <img
             src="/assets/logo-1.png"
-            onClick={() => (window.location.href = "https://pk.linkedin.com/")}
+            onClick={() =>
+              (window.location.href =
+                "https://www.linkedin.com/in/mahnoor-junaid-a99971310/")
+            }
             alt="Logo"
           ></img>
         </li>
