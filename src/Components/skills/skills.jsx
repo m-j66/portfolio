@@ -2,11 +2,12 @@ import React from "react";
 import "./skills.css";
 
 const skillset = [
-  { name: "Flutter", level: "50%" },
-  { name: "Solidity", level: "30%" },
+  { name: "JavaScript", level: "80%" },
+  { name: "Block Chain", level: "30%" },
   { name: "React JS", level: "40%" },
   { name: "Node JS", level: "70%" },
-  { name: ".Net Core", level: "20%" },
+  { name: ".Net Core", level: "40%" },
+  { name: "Flutter", level: "30%" },
 ];
 
 const Skills = () => {
